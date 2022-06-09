@@ -154,6 +154,7 @@
     position: relative;
     cursor: pointer;
     align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .fa-angle-down{
@@ -185,9 +186,11 @@
 .accordion-description{
     width: 100%;
     font-size: 30px;
+    font-weight: 900;
     height: 0;
     overflow: hidden;
     transition: 0.5s linear;
+    font-family: 'Italianno', cursive;
 }
 
 .conteiner.active-accordion .accordion-description{
@@ -473,7 +476,8 @@ html,body {
   text-shadow: 5px 5px 4px #F39C12;
   margin-top: 60px;
   font-size: 30px;
-  font-weight: 900;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-weight: 600;
   z-index: 2;
 }
 
@@ -497,11 +501,28 @@ html,body {
    margin-top: 30px;
    font-size: 30px;
    font-weight: 600;
-   font-style: italic;
+   font-family: 'Kdam Thmor Pro', sans-serif;
   }
 input::placeholder{
     color:#D5D8DC;
-    font-style: italic;
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+}
+textarea::placeholder{
+    color:#D5D8DC;
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+}
+.checkagrediv{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.btsend{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .form-decoration{
   /* display: block; */
@@ -569,7 +590,7 @@ input::placeholder{
   font-size: 40px;
   color: white;
   font-weight: 900;
- 
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 /* menu */
 .manu-conteiner{
@@ -623,14 +644,31 @@ input::placeholder{
  color: white;
  margin-top:10px;
  margin-bottom: 13px;
+ font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .liner1-paragraf{
  /* width: 280px;
  height: 62px; */
- font-size:16px ;
+ font-size:26px ;
  color: #FFFFFF;
  text-align: center;
+ font-family: 'Italianno', cursive;
 
+}
+.btsend{
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #F39C12;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    align-items: center   
+}
+.btsend:hover{
+ transform: scale(1.1);
+ background: #F39C12;
+ color: black;
 }
 .white-icon{
  border-radius: 100px;
@@ -643,6 +681,7 @@ input::placeholder{
  border: 2px solid #F39C12;
  font-weight: bold;
  font-size: 15px;
+ font-family: 'Kdam Thmor Pro', sans-serif;
  align-items: center 
 }
 
@@ -665,7 +704,7 @@ input::placeholder{
   position: relative;
 }
 .bk-title{
-    font-size: 25px;
+    font-size: 35px;
     color:#F39C12;
     text-shadow: 20px 20px 15px black;
     font-weight: 900;
@@ -757,7 +796,8 @@ body{
     text-shadow: 5px 5px 10px #F39C12;
     font-size: 40px;
     color: white;
-    font-weight: 900;   
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 
 

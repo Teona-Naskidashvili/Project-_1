@@ -1,3 +1,17 @@
+// burger bar
+let navigation = document.getElementById('navbarlist');
+let togglenav = document.getElementById('toggleburger');
+let burgerOne = document.getElementById('burgerOne');
+let burgerTwo = document.getElementById('burgerTwo');
+let burgerThree = document.getElementById('burgerThree');
+
+togglenav.addEventListener('click', function() {
+    navigation.classList.toggle('activeNav');
+    burgerOne.classList.toggle('oneline');
+    burgerTwo.classList.toggle('twoline');
+    burgerThree.classList.toggle('threeline');
+}); 
+ 
  // validator
 
 document.getElementById("registration").addEventListener("submit",function(event){
@@ -16,7 +30,7 @@ document.getElementById("registration").addEventListener("submit",function(event
     let telNumber = document.querySelector("[name='phone']").value;
   
   
-      if(isNaN(telNumber) ) {
+      if(isNaN(telNumber) || telNumber.length < 10 ) {
   
         errors.telNumber  = "Please enter correct Phone number";
      }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Booking</title>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -73,7 +73,7 @@
             </div>
             <div class="inputdiv">
 
-                <label for="quantity">Number of guests</label>
+                <label for="quantity" class="checkagrediv" >Number of guests</label>
                 <input type="number" class="form-decoration" id="quantity" name="quantity" min="1" max="20" placeholder="1,2,3...20" required="">
                 <span class="error-text" id="error_quantity"></span>
     
@@ -87,11 +87,11 @@
             
             <div class="inputdiv">
                 <input type="checkbox" name="agree" id="checkagree">
-                <label for="checkagree"> I agree your conditions</label>
+                <label for="checkagree" class="checkagrediv"> I agree your conditions</label>
                 <span class="error-text" id="error_agree"></span>
     
             </div>
-            <button type="submit">send</button>
+            <button type="submit" class="btsend">send</button>
          </form>
         </div>
      </div>
