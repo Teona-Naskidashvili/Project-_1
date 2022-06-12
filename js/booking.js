@@ -30,18 +30,18 @@ document.getElementById("registration").addEventListener("submit",function(event
     let telNumber = document.querySelector("[name='phone']").value;
   
   
-      if(isNaN(telNumber) || telNumber.length < 10 ) {
+      if(isNaN(telNumber) || telNumber.length > 10 ) {
   
         errors.telNumber  = "Please enter correct Phone number";
      }
   
-     let quantity = document.querySelector("[name = 'quantity']").value;
+    //  let quantity = document.querySelector("[name = 'quantity']").value;
   
   
-      if(isNaN(quantity) < 0 || isNaN(quantity)  > 20) {
+    //   if(isNaN(quantity) < 0 || isNaN(quantity)  > 20) {
   
-        errors.quantity  = "Please enter correct number";
-     }
+    //     errors.quantity  = "Please enter correct number";
+    //  }
   
   
   
@@ -51,18 +51,6 @@ document.getElementById("registration").addEventListener("submit",function(event
         if(!agree){
          errors.agree = " you must egree our condition";
      }
-  
-  
-    //  let ckeckedage = false;
-    //  forms.querySelectorAll("[name = 'age']").forEach(element => {
-    //      if(element.checked){
-    //         ckeckedage = true;
-    //      }
-    //  });
-  
-    //  if(ckeckedage == false){
-    //      errors.age = "pleace select your age";
-    //  }
      
      console.log(errors);
   
@@ -85,20 +73,7 @@ document.getElementById("registration").addEventListener("submit",function(event
      }
   
   });
-  
-  // let passwordshow = document.getElementById("password2");
-  // let toggleicon = document.getElementById("toggleicon");
-  // showhidepassword = () => {
-  //    if (passwordshow.type == "password"){
-  //     passwordshow.setAttribute("type","text");
-  //     toggleicon.classList.add("fa-eye-slash")
-  //    } else{
-  //     toggleicon.classList.remove("fa-eye-slash");
-  //     passwordshow.setAttribute("type","password");
-  
-  //    }
-  // }
-  // toggleicon.addEventListener("click", showhidepassword );
+
   
   function validation(){
     let emailfield = document.getElementById("emailmy").value;

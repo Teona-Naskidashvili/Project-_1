@@ -1,7 +1,3 @@
-
-
-
-
 // burger bar
 let navigation = document.getElementById('navbarlist');
 let togglenav = document.getElementById('toggleburger');
